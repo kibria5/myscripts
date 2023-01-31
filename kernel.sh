@@ -52,7 +52,7 @@ ZIPNAME="azure"
 
 # Build Author
 # Take care, it should be a universal and most probably, case-sensitive
-AUTHOR="Panchajanya1999"
+AUTHOR="kibria5"
 
 # Architecture
 ARCH=arm64
@@ -82,7 +82,7 @@ LINKER=ld.lld
 INCREMENTAL=1
 
 # Push ZIP to Telegram. 1 is YES | 0 is NO(default)
-PTTG=1
+PTTG=0
 if [ $PTTG = 1 ]
 then
 	# Set Telegram Chat ID
@@ -107,7 +107,7 @@ fi
 
 # Sign the zipfile
 # 1 is YES | 0 is NO
-SIGN=1
+SIGN=0
 if [ $SIGN = 1 ]
 then
 	#Check for java
