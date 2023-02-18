@@ -107,7 +107,7 @@ fi
 
 # Sign the zipfile
 # 1 is YES | 0 is NO
-SIGN=0
+SIGN=1
 if [ $SIGN = 1 ]
 then
 	#Check for java
